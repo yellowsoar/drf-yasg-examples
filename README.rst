@@ -84,7 +84,7 @@ Write example value in your serializer class like this.
        class Meta:
            model = Product
            fields = '__all__'
-           example = {
+           examples = {
                'name': 'Apple',
                'amount': 6,
                'price': '10.00',
